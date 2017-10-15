@@ -1,0 +1,8 @@
+{
+    "queries": [
+        {"title": "Wikipedia", "url": "https://en.wikipedia.org/w/index.php?search=", "pubmed": 0},
+        {"title": "Pubmed: Cholesterol", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "cholesterol+", "pubmed": 1},
+        {"title": "Pubmed: Cholesterol+Macrophages", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "cholesterol+macrophage+", "pubmed": 1},
+        {"title": "Pubmed: Atherosclerosis+Macrophages", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "cholesterol+macrophage+", "pubmed": 1}
+    ]
+}
