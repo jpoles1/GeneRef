@@ -1,0 +1,28 @@
+td,th{
+    text-align: center;
+}
+th{
+    padding: 8px;
+}
+td{
+    padding: 4px;
+}
+table thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+.focus {
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.selected {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+.asc:after {  content: "  \25b2"; }
+.desc:after { content: "  \25bc"; }
