@@ -1,8 +1,10 @@
 {
+    "title": "PubMed: Macrophages + Cholesterol/Atherosclerosis",
     "queries": [
-        {"title": "Wikipedia", "url": "https://en.wikipedia.org/w/index.php?search=", "pubmed": 0},
-        {"title": "Pubmed: Cholesterol", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "cholesterol+", "pubmed": 1},
-        {"title": "Pubmed: Cholesterol+Macrophages", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "cholesterol+macrophage+", "pubmed": 1},
-        {"title": "Pubmed: Atherosclerosis+Macrophages", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=", "term": "atherosclerosis+macrophage+", "pubmed": 1}
+        {"title": "Wikipedia: ", "url": "https://en.wikipedia.org/w/index.php?search={}"},
+        {"title": "RefSeq: ", "url": "https://www.ncbi.nlm.nih.gov/nuccore/?term={}+AND+Mus+musculus%5BPrimary+Organism%5D+AND+srcdb_refseq%5BPROP%5D"},
+        {"title": "Pubmed: ", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term={}", "term": "Cholesterol", "pubmed": 1},
+        {"title": "Pubmed: ", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term={}", "term": "Cholesterol+Macrophage", "pubmed": 1},
+        {"title": "Pubmed: ", "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term={}", "term": "Atherosclerosis+Macrophage", "pubmed": 1}
     ]
 }
